@@ -1,7 +1,6 @@
 import streamlit as st
 st.title("BMI Calculation")
 st.image("OIP.jpg")
-st.markdown("---")
 bg="""
 <style>
 .stApp {
@@ -11,6 +10,7 @@ bg="""
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
+st.markdown("---")
 kg=st.number_input("น้ำหนักของคุณ",step=1,min_value=10,max_value=200)
 t=st.number_input("ส่วนสูงของคุณ",step=1,min_value=10,max_value=200)
 if st.button("calculation"):
@@ -36,3 +36,4 @@ if st.button("calculation"):
         st.image("5.jpg")
         st.error("น้ำหนักอยู่ในเกณฑ์อ้วนมาก")
         st.caption("ภาวะน้ำหนักเกินมากโรคอ้วน")
+      
