@@ -1,4 +1,9 @@
 import streamlit as st
+bg1="""
+<style>
+.stApp {
+ background-color: #FF5222;
+ }
 st.title("BMI Calculation")
 st.image("OIP.jpg")
 st.markdown("---")
