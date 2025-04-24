@@ -10,6 +10,7 @@ bg="""
 }
 </style>
 """
+
 st.title("BMI Calculation")
 st.image("OIP.jpg")
 st.markdown("---")
