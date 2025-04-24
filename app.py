@@ -3,6 +3,7 @@ bg1="""
 <style>
 .stApp {
  background-color: #FF5222;
+ color: #FFFFFF;
  }
 st.title("BMI Calculation")
 st.image("OIP.jpg")
