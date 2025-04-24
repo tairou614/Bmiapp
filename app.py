@@ -5,6 +5,9 @@ bg1="""
  background-color: #FF5222;
  color: #FFFFFF;
  }
+ </style>
+ """
+st.html(bg1)
 st.title("BMI Calculation")
 st.image("OIP.jpg")
 st.markdown("---")
