@@ -1,6 +1,4 @@
 import streamlit as st
-st.title("BMI Calculation")
-st.image("OIP.jpg")
 bg="""
 <style>
 .stApp {
@@ -10,6 +8,10 @@ bg="""
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
+</style>
+"""
+st.title("BMI Calculation")
+st.image("OIP.jpg")
 st.markdown("---")
 kg=st.number_input("น้ำหนักของคุณ",step=1,min_value=10,max_value=200)
 t=st.number_input("ส่วนสูงของคุณ",step=1,min_value=10,max_value=200)
