@@ -2,6 +2,15 @@ import streamlit as st
 st.title("BMI Calculation")
 st.image("OIP.jpg")
 st.markdown("---")
+bg="""
+<style>
+.stApp {
+  background-image:url("https://www.shutterstock.com/image-photo/empty-white-studio-background-design-600nw-2183854323.jpg")
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
 kg=st.number_input("น้ำหนักของคุณ",step=1,min_value=10,max_value=200)
 t=st.number_input("ส่วนสูงของคุณ",step=1,min_value=10,max_value=200)
 if st.button("calculation"):
