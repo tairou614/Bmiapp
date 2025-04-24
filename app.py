@@ -2,7 +2,7 @@ import streamlit as st
 bg="""
 <style>
 .stApp {
-  background-image:url("https://www.shutterstock.com/image-photo/empty-white-studio-background-design-600nw-2183854323.jpg")
+  background-image:url("https://static.vecteezy.com/system/resources/thumbnails/010/718/171/small_2x/beautiful-landscape-with-mountains-mist-and-sun-in-the-morning-travel-background-photo.jpg")
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
