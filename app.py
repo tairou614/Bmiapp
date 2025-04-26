@@ -6,7 +6,7 @@ st.markdown("---")
 b="""
 <style>
 .stApp {
-  background-image: url("https://img.uhdpaper.com/wallpaper/sunset-clouds-scenery-flower-fields-digital-art-415@5@d");
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/69/95/abstract-backgroundblue-triangleabstract-vector-23986995.jpg");
   background-size: cover;
 }
 </style>
@@ -16,9 +16,10 @@ st.html(b)
 
 sex = st.radio("เพศ",("หญิง","ชาย"), horizontal=True)
 
-kg=st.number_input("น้ำหนักของคุณ",step=1,min_value=10,max_value=200)
-t=st.number_input("ส่วนสูงของคุณ",step=1,min_value=10,max_value=200)
-
+kg=st.slider('Kgs',10.0,200.0,50.0,0.5)
+st.write(kg)
+cm=st.slider('cms',10.0,200.0,50.0,0.5)
+st.write(cm)
 
 if st.button("calculation"):
     bmi=kg/(t/100)**2
